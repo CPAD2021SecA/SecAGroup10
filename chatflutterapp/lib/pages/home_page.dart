@@ -260,7 +260,6 @@ class HomePageState extends State<HomePage> {
             // List
             Column(
               children: [
-                buildSearchBar(),
                 Expanded(
                   child: StreamBuilder<QuerySnapshot>(
                     stream: homeProvider.getStreamFireStore(FirestoreConstants.pathUserCollection, _limit, _textSearch),

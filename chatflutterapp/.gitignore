@@ -13,6 +13,10 @@
 *.iml
 *.ipr
 *.iws
+.idea/.gitignore
+.idea/CPAD Assignment 2.iml
+.idea/modules.xml
+.idea/vcs.xml
 .idea/
 .android/
 .ios/
