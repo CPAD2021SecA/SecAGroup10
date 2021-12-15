@@ -626,8 +626,8 @@ class ChatPageState extends State<ChatPage> {
                 style: TextStyle(color: ColorConstants.primaryColor, fontSize: 15),
                 controller: textEditingController,
                 decoration: InputDecoration.collapsed(
-                  hintText: 'Type your message...',
-                  hintStyle: TextStyle(color: ColorConstants.greyColor),
+                  hintText: 'Message',
+                  hintStyle: TextStyle(color: ColorConstants.lightgrey),
                 ),
                 focusNode: focusNode,
               ),
