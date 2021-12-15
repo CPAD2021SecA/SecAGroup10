@@ -304,7 +304,7 @@ class ChatPageState extends State<ChatPage> {
                           padding: EdgeInsets.fromLTRB(15, 10, 15, 10),
                           width: 200,
                           decoration:
-                              BoxDecoration(color: ColorConstants.primaryColor, borderRadius: BorderRadius.circular(8)),
+                              BoxDecoration(color: ColorConstants.chatScreenColour, borderRadius: BorderRadius.circular(8)),
                           margin: EdgeInsets.only(left: 10),
                         )
                       : messageChat.type == TypeMessage.image
@@ -441,7 +441,7 @@ class ChatPageState extends State<ChatPage> {
       appBar: AppBar(
         title: Text(
           this.peerNickname,
-          style: TextStyle(color: ColorConstants.primaryColor),
+          style: TextStyle(color: ColorConstants.chatScreenColour),
         ),
         centerTitle: true,
       ),
@@ -599,7 +599,7 @@ class ChatPageState extends State<ChatPage> {
               child: IconButton(
                 icon: Icon(Icons.image),
                 onPressed: getImage,
-                color: ColorConstants.primaryColor,
+                color: ColorConstants.chatScreenColour,
               ),
             ),
             color: Colors.white,
@@ -610,7 +610,7 @@ class ChatPageState extends State<ChatPage> {
               child: IconButton(
                 icon: Icon(Icons.face),
                 onPressed: getSticker,
-                color: ColorConstants.primaryColor,
+                color: ColorConstants.chatScreenColour,
               ),
             ),
             color: Colors.white,
@@ -623,7 +623,7 @@ class ChatPageState extends State<ChatPage> {
                 onSubmitted: (value) {
                   onSendMessage(textEditingController.text, TypeMessage.text);
                 },
-                style: TextStyle(color: ColorConstants.primaryColor, fontSize: 15),
+                style: TextStyle(color: ColorConstants.chatScreenColour, fontSize: 15),
                 controller: textEditingController,
                 decoration: InputDecoration.collapsed(
                   hintText: 'Message',
@@ -641,7 +641,7 @@ class ChatPageState extends State<ChatPage> {
               child: IconButton(
                 icon: Icon(Icons.send),
                 onPressed: () => onSendMessage(textEditingController.text, TypeMessage.text),
-                color: ColorConstants.primaryColor,
+                color: ColorConstants.chatScreenColour,
               ),
             ),
             color: Colors.white,
