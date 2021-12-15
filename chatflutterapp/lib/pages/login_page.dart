@@ -24,7 +24,7 @@ class LoginPageState extends State<LoginPage> {
         Fluttertoast.showToast(msg: "Sign in fail");
         break;
       case Status.authenticateCanceled:
-        Fluttertoast.showToast(msg: "Sign in canceled");
+        Fluttertoast.showToast(msg: "Sign in Canceled");
         break;
       case Status.authenticated:
         Fluttertoast.showToast(msg: "Sign in success");
