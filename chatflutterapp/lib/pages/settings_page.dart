@@ -265,7 +265,7 @@ class SettingsPageStateState extends State<SettingsPageState> {
                       data: Theme.of(context).copyWith(primaryColor: ColorConstants.primaryColor),
                       child: TextField(
                         decoration: InputDecoration(
-                          hintText: 'Fun, like travel and play PES...',
+                          hintText: 'Add some fun facts about you',
                           contentPadding: EdgeInsets.all(5),
                           hintStyle: TextStyle(color: ColorConstants.greyColor),
                         ),
