@@ -20,7 +20,7 @@ class SettingsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           AppConstants.settingsTitle,
-          style: TextStyle(color: ColorConstants.primaryColor),
+          style: TextStyle(color: ColorConstants.Color1),
         ),
         centerTitle: true,
       ),
