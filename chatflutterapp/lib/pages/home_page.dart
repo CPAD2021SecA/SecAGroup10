@@ -45,6 +45,7 @@ class HomePageState extends State<HomePage> {
   StreamController<bool> btnClearController = StreamController<bool>();
   TextEditingController searchBarTec = TextEditingController();
 
+
   List<PopupChoices> choices = <PopupChoices>[
     PopupChoices(title: 'Settings', icon: Icons.settings),
     PopupChoices(title: 'Log out', icon: Icons.exit_to_app),
